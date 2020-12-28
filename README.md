@@ -83,8 +83,7 @@ Param layout - Set the layout contains ValidationEditText resourceId.
 	    android:hint="@string/enter_password"
 	    app:custom_pattern="@string/pass_regex"
 	    app:error_text="Custom error, enter valid"
-	    app:input_background="@drawable/vet_bg"
-	    app:pattern="CUSTOM" />
+	    app:input_background="@drawable/vet_bg"/>
 
 ```
 | Attribute             | Use to                                                  |
