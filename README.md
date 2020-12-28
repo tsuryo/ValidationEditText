@@ -123,6 +123,28 @@ getters and setters - [ValidationEditText](https://github.com/tsuryo/ValidationE
    });
    vet.validate();
 ```
+* [Listen to text changes](https://github.com/tsuryo/ValidationEditText/blob/353ac5efa4667f86459da710a6863e9e8b173435/ValidationEditText/src/main/java/com/tsoft/validationedittext/views/ValidationEditText.java#L354)
+
+```Java
+   vet.addTextChangedListener(new TextWatcher() {
+       @Override
+       public void beforeTextChanged(CharSequence s, int start,
+                                     int count, int after) {
+
+       }
+
+       @Override
+       public void onTextChanged(CharSequence s, int start,
+                                 int before, int count) {
+
+       }
+
+       @Override
+       public void afterTextChanged(Editable s) {
+
+       }
+   });
+```
 * Adding ValidationEditText manually to EditTextValidator
 ```Java
    /**
