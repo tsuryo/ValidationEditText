@@ -68,7 +68,7 @@ Param layout - Set the layout contains ValidationEditText resourceId.
 Param v - Set the hosting View - for fragments use it in onViewCreated(View view, @Nullable Bundle savedInstanceState)  
 Param layout - Set the layout contains ValidationEditText resourceId.
 
-[EditTextValidator](https://github.com/tsuryo/ValidationEditText/blob/15985e54830991c3035be407d3829beaf4ceddcc/ValidationEditText/src/main/java/com/tsoft/validationedittext/utils/EditTextValidator.java#L19)
+[EditTextValidator](https://tsuryo.github.io/ValidationEditText/com/tsoft/validationedittext/views/ValidationEditText.html#t0)
 
 
 ### XML
