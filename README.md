@@ -22,7 +22,7 @@ Android 5.0+ API 21+
 * Customizable text size, text color.
 * Customizable backgrounds - all layout, input background.
 * Automatically showing/dismissing error on validation process.
-* [Auto parse](simplest_way_to_use) forms layout xml built with ValidationEditText.
+* [Auto parse](#simplest-way-to-use) forms layout xml built with ValidationEditText.
 
 # Getting familiar
 Classes you should be familiar with:  
