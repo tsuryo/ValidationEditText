@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <com.tsoft.validationedittext.views.ValidationEditText
+        android:id="@+id/vEt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="@string/enter_email"
+        android:textSize="10sp"
+        app:error_text="Enter valid email address"
+        app:input_background="@drawable/vet_bg"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:pattern="EMAIL"
+        app:text_color="@color/colorAccent" />
+
+    <com.tsoft.validationedittext.views.ValidationEditText
+        android:id="@+id/vEt1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="@string/enter_password"
+        android:textSize="10sp"
+        app:custom_pattern="@string/pass_regex"
+        app:error_text="Custom error, enter valid"
+        app:input_background="@drawable/vet_bg"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vEt" />
+
+    <com.tsoft.validationedittext.views.ValidationEditText
+        android:id="@+id/vEt2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="@string/enter_name"
+        app:error_text="@string/valid_naame"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vEt1"
+        app:pattern="NAME" />
+
+    <com.tsoft.validationedittext.views.ValidationEditText
+        android:id="@+id/vEt3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="@string/enter_phone_number"
+        android:inputType="phone"
+        android:textColorHint="@android:color/holo_green_light"
+        app:error_text="@string/vaalid_phone_num"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vEt2"
+        app:pattern="PHONE" />
+
+    <com.tsoft.validationedittext.views.ValidationEditText
+        android:id="@+id/vEt4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="@string/enter_url"
+        android:inputType="textUri"
+        android:textColorHint="@android:color/holo_purple"
+        app:error_text="Enter valid url"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vEt3"
+        app:pattern="WEB_URL" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/validate"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vEt3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

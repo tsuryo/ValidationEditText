@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ValidationEditText">
+        <attr name="android:inputType" />
+        <attr name="android:fontFamily" />
+        <attr name="android:hint" />
+        <attr name="android:text" />
+        <attr name="android:textColorHint" />
+        <attr name="android:textSize" />
+        <attr name="android:background" />
+        <attr name="input_background" format="reference|color" />
+        <attr name="text_color" format="color" />
+        <attr name="error_text" format="string" />
+        <attr name="et_text" format="string" />
+        <attr name="pattern" format="enum">
+            <enum name="EMAIL" value="0" />
+            <enum name="PASSWORD" value="1" />
+            <enum name="PHONE" value="2" />
+            <enum name="NAME" value="3" />
+            <enum name="CUSTOM" value="4" />
+            <enum name="WEB_URL" value="5" />
+            <enum name="IP_ADDRESS" value="6" />
+            <enum name="FULL_NAME" value="7" />
+        </attr>
+        <attr name="custom_pattern" format="string" />
+    </declare-styleable>
+</resources>

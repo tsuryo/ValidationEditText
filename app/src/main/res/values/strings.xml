@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Validation Example</string>
+    <string name="pass_regex"><![CDATA[(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z]).{8,}]]></string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="validate">Validate</string>
+    <string name="vaalid_phone_num">Enter valid phone number</string>
+    <string name="valid_naame">Enter valid name</string>
+    <string name="enter_url">Enter url</string>
+</resources>
