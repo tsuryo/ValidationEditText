@@ -9,6 +9,7 @@ Android library provides a simple way to validate input, and handles ui using Va
 Android 5.0+ API 21+
 
 ## Where to
+* [Features](#features)
 * [Getting familiar](#getting-familiar)
 * [Usage](#usage)
 * [Docs](https://tsuryo.github.io/ValidationEditText/)
