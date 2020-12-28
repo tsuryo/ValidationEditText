@@ -103,7 +103,7 @@ Param layout - Set the layout contains ValidationEditText resourceId.
 | custom_pattern        | use to set custom regex pattern                         |
 
 Access this attributes from Java code using ValidationEditText  
-getters and setters - [ValidationEditText](https://github.com/tsuryo/ValidationEditText/blob/15985e54830991c3035be407d3829beaf4ceddcc/ValidationEditText/src/main/java/com/tsoft/validationedittext/views/ValidationEditText.java#L24)
+getters and setters - [ValidationEditText](https://tsuryo.github.io/ValidationEditText/com/tsoft/validationedittext/views/ValidationEditText.html#t0)
 
 ## Other ways to use
 * Handle ValidationEditText individually
