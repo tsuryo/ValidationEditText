@@ -11,7 +11,7 @@ Android 5.0+ API 21+
 ## Where to
 * [Getting familiar](#getting-familiar)
 * [Usage](#usage)
-* [Docs](https://www.google.com)
+* [Docs](https://tsuryo.github.io/ValidationEditText/)
 * [Installing](#installing)
 
 # Features
