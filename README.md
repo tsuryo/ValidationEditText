@@ -1,4 +1,4 @@
-[![](https://jitpack.io/v/tsuryo/Swipeable-RecyclerView.svg)](https://jitpack.io/#tsuryo/Swipeable-RecyclerView)
+[![](https://jitpack.io/v/tsuryo/ValidationEditText.svg)](https://jitpack.io/#tsuryo/ValidationEditText)
 
 # ValidationEditText
 Android library provides a simple way to validate input, and handles ui using ValidationEditText.
@@ -183,6 +183,6 @@ allprojects {
 Add the dependency
 ```
 dependencies {
-
+        implementation 'com.github.tsuryo:ValidationEditText:v1.0'
 }
 ```
